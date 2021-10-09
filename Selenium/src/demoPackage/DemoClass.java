@@ -29,7 +29,7 @@ static WebDriver driver;
 		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		 driver.get("https://www.netflix.com/title/80025678");
 	WebElement signin= driver.findElement(By.xpath("//div[@id=\"appMountPoint\"]/div/div[2]/div/div[2]/button"));
-	 
+	 //
 	 Set<String> set=driver.getWindowHandles();
 	 Iterator<String> itr=set.iterator();
 	 while(itr.hasNext()) {
