@@ -32,6 +32,7 @@ static WebDriver driver;
 	 //
 	 Set<String> set=driver.getWindowHandles();
 	 Iterator<String> itr=set.iterator();
+	 System.out.println("New Push");
 	 while(itr.hasNext()) {
 	 
 
